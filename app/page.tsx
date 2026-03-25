@@ -16,7 +16,7 @@ export default function NetstoriaSite() {
           NetStoria
         </h1>
         <p className="text-lg max-w-xl mx-auto text-gray-600 mb-6">
-          Profesjonalne wsparcie pracy biura (administracyjne i techniczne), automatyzacja procesów (np. proste aplikacje desktopowe) oraz fotografia produktowa.
+          Profesjonalne wsparcie administracyjno-organizacyjne i&nbsp;techniczne, automatyzacja procesów (np. proste aplikacje desktopowe), fotografia produktowa.
         </p>
          <a href="#kontakt">
         <Button onClick={() => kontaktRef.current?.scrollIntoView({ behavior: "smooth" })}  className="rounded-2xl px-6 py-2 text-base">
@@ -36,7 +36,7 @@ export default function NetstoriaSite() {
               <Mail className="mx-auto mb-4" />
               <h3 className="font-semibold mb-2">Wirtualna asystentka</h3>
               <p className="text-sm text-gray-600">
-                Zdalne wsparcie biura, organizacja, obsługa maili i dokumentów. Zestawienia i raporty.
+                Zdalne wsparcie biura, organizacja, obsługa maili i&nbsp;dokumentów. Zestawienia i&nbsp;raporty. Instrukcje techniczne i filmy instruktażowe.
               </p>
             </CardContent>
           </Card>
@@ -56,7 +56,7 @@ export default function NetstoriaSite() {
               <Laptop className="mx-auto mb-4" />
               <h3 className="font-semibold mb-2">Aplikacje desktopowe</h3>
               <p className="text-sm text-gray-600">
-                Tworzenie prostych narzędzi, np. łączenie plików PDF i automatyzacja pracy.
+                Tworzenie prostych narzędzi, np. łączenie plików PDF i&nbsp;automatyzacja pracy.
               </p>
             </CardContent>
           </Card>
@@ -66,7 +66,7 @@ export default function NetstoriaSite() {
               <Camera className="mx-auto mb-4" />
               <h3 className="font-semibold mb-2">Fotografia produktowa</h3>
               <p className="text-sm text-gray-600">
-                Estetyczne zdjęcia produktów do sklepów internetowych i social media.
+                Estetyczne zdjęcia produktów do sklepów internetowych i&nbsp;social media.
               </p>
             </CardContent>
           </Card>
@@ -117,7 +117,7 @@ export default function NetstoriaSite() {
         </div>
 
         {/* PRODUCT PHOTOS */}
-        <h3 className="text-xl font-semibold mb-4">Fotografia produktów i usług</h3>
+        <h3 className="text-xl font-semibold mb-4">Fotografia produktów i&nbsp;usług</h3>
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           <img src="/produkt1.jpg" className="rounded-xl" />
           <img src="/produkt2.jpg" className="rounded-xl" />
@@ -125,7 +125,7 @@ export default function NetstoriaSite() {
         </div>
 
         {/* VIDEO */}
-        <h3 className="text-xl font-semibold mb-4">Wideo (instrukcja aplikacji)</h3>
+        <h3 className="text-xl font-semibold mb-4">Prosta aplikacja usprawniająca pracę, bez ryzyka wycieku danych jak na darmowych narzędziach on-line. Filmy instruktażowe</h3>
         <div className="aspect-video">
           <video controls className="w-full rounded-xl">
             <source src="/video.mp4" type="video/mp4" />
