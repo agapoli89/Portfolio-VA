@@ -84,7 +84,7 @@ export default function NetstoriaSite() {
           <div>
             <h2 className="text-3xl font-semibold mb-6">O mnie</h2>
             <p className="text-gray-600 text-justify">
-              Posiadam wieloletnie doświadczenie w&nbsp;szeroko pojętej administracji biurowej, obejmujące m.in. rozliczenia, organizację szkoleń, logistykę podróży służbowych, archiwizację
+              Posiadam wieloletnie doświadczenie w&nbsp;szeroko pojętej administracji biurowej, obejmujące m.in. rozliczenia, logistykę szkoleń, organizację podróży służbowych, archiwizację
               oraz&nbsp;kompleksowe zarządzanie dokumentacją. Dzięki praktycznej wiedzy skutecznie wspieram firmy w&nbsp;codziennym funkcjonowaniu i&nbsp;optymalizacji procesów biurowych.
             </p>
             <p className="text-gray-600 text-justify">
