@@ -78,7 +78,7 @@ export default function NetstoriaSite() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <img
             src="/ja.jpg"
-            alt="Twoje zdjęcie"
+            alt="Moje zdjęcie"
             className="rounded-2xl shadow-md"
           />
           <div>
@@ -106,22 +106,22 @@ export default function NetstoriaSite() {
         <h3 className="text-xl font-semibold mb-4">Posty na Instagram</h3>
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           <a href="https://www.instagram.com/p/CWEDIWwoy8H/">
-            <img src="/post1.jpg" className="rounded-xl" />
+            <img src="/post1.jpg" alt="Post na Instagram" className="rounded-xl" />
           </a>
           <a href="https://www.instagram.com/p/CWdz4r4or1Q/">
-            <img src="/post2.jpg" className="rounded-xl" />
+            <img src="/post2.jpg" alt="Post na Instagram" className="rounded-xl" />
           </a>
           <a href="https://www.instagram.com/p/CWu80xOogmv/">
-            <img src="/post3.jpg" className="rounded-xl" />
+            <img src="/post3.jpg" alt="Post na Instagram" className="rounded-xl" />
           </a>
         </div>
 
         {/* PRODUCT PHOTOS */}
         <h3 className="text-xl font-semibold mb-4">Fotografia produktów i&nbsp;usług</h3>
         <div className="grid md:grid-cols-3 gap-6 mb-10">
-          <img src="/produkt1.jpg" className="rounded-xl" />
-          <img src="/produkt2.jpg" className="rounded-xl" />
-          <img src="/produkt3.jpg" className="rounded-xl" />
+          <img src="/produkt1.jpg" alt="Fotografia produktu" className="rounded-xl" />
+          <img src="/produkt2.jpg" alt="Fotografia produktu" className="rounded-xl" />
+          <img src="/produkt3.jpg" alt="Fotografia produktu" className="rounded-xl" />
         </div>
 
         {/* VIDEO */}
@@ -136,7 +136,7 @@ export default function NetstoriaSite() {
       {/* CONTACT FORM */}
       <section ref={kontaktRef} className="bg-gray-900 text-white py-16 px-6 text-center">
         <h2 className="text-3xl font-semibold mb-6">Kontakt</h2>
-        <p className="mb-2">📞 <a href="tel:+48123456789" className="hover:underline">+48 508 071 833</a></p>
+        <p className="mb-2">📞 <a href="tel:+48508071833" className="hover:underline">+48 508 071 833</a></p>
         <p className="mb-4">📧 netstoria.va@gmail.com</p>
 
         <form action="https://formspree.io/f/mbdznnbk" method="POST" className="space-y-4 max-w-md mx-auto">
